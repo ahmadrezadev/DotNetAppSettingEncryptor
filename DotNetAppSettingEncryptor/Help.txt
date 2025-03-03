@@ -1,0 +1,4 @@
+DotNetAppSettingEncryptor.exe get-keys
+DotNetAppSettingEncryptor.exe new-keys
+DotNetAppSettingEncryptor.exe set-keys "KEY" "IV"
+DotNetAppSettingEncryptor.exe encrypt "appsettings.json" "appsettings.enc"
